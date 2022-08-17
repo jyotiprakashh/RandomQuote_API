@@ -13,7 +13,7 @@ qbtn.addEventListener("click",()=>{
         auth.innerText = result.author;
         loader.classList.remove("active");
     })
-    },1500);
+    },500);
 })
 sbtn.addEventListener("click",()=>{
     let tell = new SpeechSynthesisUtterance(`${quote.innerText} by ${auth.innerText}`);
