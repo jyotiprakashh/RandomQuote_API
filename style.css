@@ -76,6 +76,7 @@ body{
 }
 
 .features ul li{
+    z-index: 10;
     list-style: none;
     margin: 0 8px;
     width: 47px;
@@ -93,9 +94,8 @@ body{
     color: #fff;
     background: rgb(119, 119, 240);
 }
-
-
 .features button{
+    z-index: 10;
     border: none;
     outline: none;
     color: #fff;
@@ -104,4 +104,15 @@ body{
     padding: 13px 22px;
     border-radius: 30px;
     background: rgb(114, 114, 225);
+}
+#loader{
+    background:  black url(./loader1.gif) no-repeat  center;
+   opacity: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;  
+}
+#loader.active{
+    opacity: 0.8;
+   
 }
