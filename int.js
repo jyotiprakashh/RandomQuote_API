@@ -7,7 +7,7 @@ let cbtn = document.querySelector(".copy");
 qbtn.addEventListener("click",()=>{
     loader.classList.add("active");
     setTimeout(function() {
-        fetch("http://api.quotable.io/random").then(res=>res.json()).then(result=>{
+        fetch("https://api.quotable.io/random").then(res=>res.json()).then(result=>{
         console.log(result);
         quote.innerText = result.content;
         auth.innerText = result.author;
