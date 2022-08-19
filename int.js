@@ -21,7 +21,7 @@ qbtn.addEventListener("click",()=>{
         auth.innerText = result.author;
         loader.classList.remove("active");
     })
-    },500);
+    },1000);
 })
 sbtn.addEventListener("click",()=>{
     let tell = new SpeechSynthesisUtterance(`${quote.innerText} by ${auth.innerText}`);
