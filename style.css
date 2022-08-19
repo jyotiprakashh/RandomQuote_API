@@ -115,7 +115,7 @@ body {
     background: rgb(119, 119, 240);
 }
 
-.features button{
+.features button {
     z-index: 5;
     border: none;
     outline: none;
@@ -127,19 +127,19 @@ body {
     background: rgb(114, 114, 225);
 }
 
-#loader{
-    background:  rgba(0, 0, 0, 0.999) url(./loader1.gif) no-repeat  center;
-   transform: translateY(1000px);
+#loader {
+    background: rgba(0, 0, 0, 0.999) url(./loader1.gif) no-repeat center;
+    transform: translateY(1000px);
     height: 100vh;
     width: 100%;
-    position: fixed;  
+    position: fixed;
     z-index: 2;
 }
 
 #loader.active {
     opacity: 0.8;
     transform: translateY(0);
-   z-index: 10;
+    z-index: 10;
 }
 
 /* .newquote {
