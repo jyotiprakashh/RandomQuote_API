@@ -4,10 +4,18 @@ let auth = document.querySelector(".name");
 let loader = document.getElementById("loader")
 let sbtn =  document.querySelector(".sound");
 let cbtn = document.querySelector(".copy");
+function display(){
+    let a = new Date();
+    let t = a.toLocaleTimeString();
+    let d = a.toLocaleDateString();
+    document.querySelector("#date").innerText= d;
+    document.querySelector("#time").innerText= t;
+}
+setInterval(display,1000);
 qbtn.addEventListener("click",()=>{
     loader.classList.add("active");
     setTimeout(function() {
-        fetch("http://api.quotable.io/random").then(res=>res.json()).then(result=>{
+        fetch("https://api.quotable.io/random").then(res=>res.json()).then(result=>{
         console.log(result);
         quote.innerText = result.content;
         auth.innerText = result.author;
@@ -22,3 +30,4 @@ sbtn.addEventListener("click",()=>{
 cbtn.addEventListener("click",()=>{
     navigator.clipboard.writeText(quote.innerText);
 })
+
