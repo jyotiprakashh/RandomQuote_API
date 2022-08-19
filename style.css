@@ -18,6 +18,16 @@ body{
     font-weight: 600px;
     text-align: center;
 }
+#clock ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+#clock ul li {
+    list-style: none;
+}
 
 .wrapper .content{
     margin: 35px 0;
