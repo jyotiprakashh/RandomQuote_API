@@ -113,11 +113,11 @@
 let cr = ["url(Images/2.jpg)",
           "url(Images/3.jpg)",
           "url(Images/4.jpg)",
-          "url(Images/5.jfif)",
-          "url(Images/5.jfif)",
-          "url(Images/1.webp)",
-          "url(Images/7.jfif)",
-          "url(Images/8.webp)"]
+          "url(Images/5.jpg)",
+          "url(Images/5.jpg)",
+          "url(Images/1.jpg)",
+          "url(Images/7.jpg)",
+          "url(Images/8.jpg)"]
 
 let a = 0;          
 

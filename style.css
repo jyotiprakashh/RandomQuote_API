@@ -18,7 +18,7 @@ body {
     justify-content: center;
     /* min-height: 100vh; */
     /* background: rgb(112, 112, 216); */
-    background-image: url(Images/1.webp);
+    background-image: url(Images/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@ body {
     font-size: 35px;
     font-weight: 600px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik Distressed', cursive;
 }
 
 #clock ul {
@@ -80,7 +80,8 @@ body {
     font-size: 22px;
     text-align: center;
     word-break: keep-all;
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lobster', cursive;
 }
 
 .content .author {
@@ -149,6 +150,7 @@ body {
     padding: 13px 22px;
     border-radius: 30px;
     background: rgb(114, 114, 225);
+    font-family: 'Kanit', sans-serif;
 }
 
 #loader {
