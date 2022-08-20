@@ -116,7 +116,7 @@ body {
 }
 
 .features ul {
-    display: flex;
+    display: flex;    
 }
 
 .features ul li {
@@ -125,6 +125,7 @@ body {
     margin: 0 8px;
     width: 47px;
     height: 47px;
+    
     cursor: pointer;
     color: rgb(88, 88, 223);
     display: flex;
@@ -144,13 +145,17 @@ body {
     z-index: 5;
     border: none;
     outline: none;
-    color: #fff;
+    color: rgb(10, 1, 1);
+    /* font-weight: bold; */
     cursor: pointer;
+    font-size: 1.1em;
     font-style: 16px;
     padding: 13px 22px;
-    border-radius: 30px;
-    background: rgb(114, 114, 225);
-    font-family: 'Kanit', sans-serif;
+    border-radius: 6px;
+    background: none;
+    font-family: 'Lobster', cursive;
+    border: solid 2px #2f2f2f;
+    /* font-family: 'Kanit', sans-serif; */
 }
 
 #loader {
@@ -206,8 +211,8 @@ div.buttons.features {
 } */
 
 .btn:hover {
-    background-color: blue;
-    box-shadow: 0 3px #666;
+    background-color: #536692;
+    /* box-shadow: 0 3px #666; */
 
 }
 
@@ -222,4 +227,32 @@ div.buttons.features {
     #desc{
         width: 70%;
     }
+
+    .features ul {
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .features ul{
+        scale: 0.8;
+    }
+
+    .features button{
+        scale: 0.8;
+    }    
+}
+
+@media screen and (max-width:430px) {
+    .features ul {
+        display: inline;     
+    }
+    .features ul li{
+        margin-top: 3px;
+    }
+
+    .buttons .features {
+        margin-top: 0px;
+    }
+    
 }
