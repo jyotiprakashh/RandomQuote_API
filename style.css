@@ -173,49 +173,6 @@ body {
     z-index: 10;
 }
 
-/* .newquote {
-    text-decoration: none;
-    font-weight: 500;
-    position: relative;
-    font-size: 14px;
-    color: #333;
-    background-color: #ddd;
-    display: block;
-    padding: 14px 20px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-
-div.buttons.features {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    border-radius: 50rem;
-    background-color: red;
-    animation: rippleEffects 1s linear infinite;
-}
-
-@keyframes rippleEffect {
-    from {
-        width: 0;
-        height: 0;
-        opacity: .5;
-    }
-
-    to {
-        width: 500px;
-        height: 500px;
-        opacity: 0;
-    }
-} */
-
-.btn:hover {
-    background-color: #536692;
-    /* box-shadow: 0 3px #666; */
-
-}
-
 .btn:active {
     /* background-color: #3e8e41; */
     /* box-shadow: 0 5px #666; */
