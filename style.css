@@ -127,18 +127,19 @@ body {
     height: 47px;
     
     cursor: pointer;
-    color: rgb(88, 88, 223);
+    color: rgb(10, 1, 1);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid rgb(112, 112, 235);
+    border: 2px solid #2f2f2f;
     transition: all 0.3s ease;
 }
 
 .features ul li:hover {
-    color: #fff;
-    background: rgb(119, 119, 240);
+    /* color: #fff;
+    background: rgb(119, 119, 240); */
+    transform: translateY(4px);
 }
 
 .features button {
@@ -174,10 +175,17 @@ body {
 }
 
 .btn:active {
-    /* background-color: #3e8e41; */
-    /* box-shadow: 0 5px #666; */
-    transform: translateY(4px);
+    transform: translate(4px,4px);   
+    box-shadow: none;
 }
+
+.btn:hover{
+    /* background-color: #ececec; */
+    /* box-shadow:4px 3px 6px rgb(10, 1, 1) ; */
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    
+}
+
 
 @media screen and (max-width : 650px){
     
@@ -205,7 +213,7 @@ body {
         display: inline;     
     }
     .features ul li{
-        margin-top: 3px;
+        margin-top: 5px;
     }
 
     .buttons .features {
